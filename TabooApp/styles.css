@@ -6,7 +6,7 @@ body {
     background-color: grey;
     color: white;
     text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
-    line-height: 0.2;
+    line-height: 0.1;
 }
 
 button {
