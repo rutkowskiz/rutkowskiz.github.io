@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     /*font-weight: bold;*/
-    font-size: xx-large;
+    font-size: 4vh;
     text-align: center;
     vertical-align: top;
     background-color: grey;
@@ -12,7 +12,7 @@ body {
 
 button {
     font-size: 4vh;
-    width: 90vw;
+    width: 85vw;
     height: 10vh;
     margin: 0;
     background-color: blue;
@@ -30,7 +30,7 @@ button:active {
 }
 
 #taboo-card {    
-    width: 90vw;
+    width: 85vw;
     height: 10vh;
     margin-left: auto;
     margin-right: auto;
@@ -46,8 +46,8 @@ button:active {
 }
 
 #forbidden-card {
-    width: 90vw;
-    height: 45vh;
+    width: 85vw;
+    height: 55vh;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10px;
