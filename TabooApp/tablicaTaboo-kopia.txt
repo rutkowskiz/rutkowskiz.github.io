@@ -1,10 +1,5 @@
-function getRandomWordSet() {
-    const randomIndex = Math.floor(Math.random() * tabooWords.length);
-    return tabooWords[randomIndex];
-}
-
 var tabooWords = [
-    ["Aparat", ["Zdjęcie", "Obiektyw", "Fotografia", "Przycisk", "Błysk"]],  
+    ["Aparat", ["Zdjęcie", "Obiektyw", "Fotografia", "Przycisk", "Błysk"]],     //*********************** A ***********************
     ["Alkohol", ["Piwo", "Wino", "Wódka", "Szklanka", "Trunek"]],
     ["Akcja", ["Film", "Bohater", "Dramat", "Scenariusz", "Reżyser"]],
     ["Amfiteatr", ["Scena", "Publiczność", "Spektakl", "Budowla", "Antyczny"]],
@@ -122,7 +117,7 @@ var tabooWords = [
     ["Antagonista", ["Przeciwnik", "Konflikt", "Opowieść", "Bohater", "Literatura"]],
     ["Apteka", ["Leki", "Zdrowie", "Farmaceuta", "Choroba", "Sklep"]],
 
-    ["Balon", ["Latać", "Powietrze", "Heł", "Kolor", "Festiwal"]],            
+    ["Balon", ["Latać", "Powietrze", "Heł", "Kolor", "Festiwal"]],                      //****************** B **********************
     ["Bateria", ["Energia", "Elektryczność", "Ładować", "Telefon", "Prąd"]],
     ["Biologia", ["Nauka", "Życie", "Organizm", "Zdrowie", "Studia"]],
     ["Basen", ["Woda", "Pływanie", "Nurkowanie", "Ruch", "Cwiczenie"]],
@@ -223,7 +218,7 @@ var tabooWords = [
     ["Babeczka", ["Ciasto", "Słodki", "Pieczenie", "Cukier", "Deser"]],
     ["Bryza", ["Wiatr", "Morze", "Powiew", "Żagiel", "Chłodzenie"]],
 
-    ["Czajnik", ["Herbata", "Woda", "Gorący", "Kuchnia", "Elektryczny"]],          
+    ["Czajnik", ["Herbata", "Woda", "Gorący", "Kuchnia", "Elektryczny"]],                   //******************  C  ************************ */
     ["Cegła", ["Budowa", "Mur", "Dom", "Czerwony", "Zaprawa"]],
     ["Czekolada", ["Słodki", "Deser", "Kakao", "Tabliczka", "Mleko"]],
     ["Cytryna", ["Owoc", "Kwaśny", "Żółty", "Limonka", "Sok"]],
@@ -337,7 +332,7 @@ var tabooWords = [
     ["Ciekły azot", ["Chemia", "Zimny", "Temperatura", "Laboratorium", "Płyn"]],
     ["Czwarty wymiar", ["Przestrzeń", "Czas", "Fizyka", "Teoria względności", "Nauka"]],
 
-    ["Dinozaur", ["Prehistoria", "Wymarły", "Jurajski", "Paleontologia", "Szkielet"]],    
+    ["Dinozaur", ["Prehistoria", "Wymarły", "Jurajski", "Paleontologia", "Szkielet"]],              //*********************  D  *********************** */
     ["Drewno", ["Drzewo", "Materiał", "Meble", "Las", "Sekator"]],
     ["Dżem", ["Owoce", "Słodki", "Słoik", "Kanapka", "Cukier"]],
     ["Dzwonek", ["Dźwięk", "Słyszeć", "Alarm", "Szkoła", "Drzwi"]],
@@ -445,7 +440,7 @@ var tabooWords = [
     ["Dyplomata", ["Ambasador", "Polityka", "Negocjacje", "Rząd", "Stosunki międzynarodowe"]],
     ["Dynamit", ["Eksplozja", "Wybuch", "Energia", "Niebezpieczny", "Niszczenie"]],
 
-    ["Edukacja", ["Szkoła", "Nauka", "Nauczyciel", "Student", "Zadanie"]],          
+    ["Edukacja", ["Szkoła", "Nauka", "Nauczyciel", "Student", "Zadanie"]],                          //***********************  E  ************************** */
     ["Ekran", ["Telewizor", "Komputer", "Obraz", "Monitor", "Projektor"]],
     ["Ekosystem", ["Natura", "Zwierzęta", "Rośliny", "Środowisko", "Bioróżnorodność"]],
     ["Ekonomia", ["Pieniądze", "Biznes", "Rynek", "Produkcja", "Konsumpcja"]],
@@ -546,7 +541,7 @@ var tabooWords = [
     ["Ewangelia", ["Biblia", "Chrześcijaństwo", "Kościół", "Jezus", "Wiara"]],
     ["Ewolucja", ["Rozwój", "Zmiana", "Nauka", "Darwin", "Gatunek"]],
 
-    ["Fasola", ["Jedzenie", "Roślina", "Gotowanie", "Zupa", "Nasiona"]],
+    ["Fasola", ["Jedzenie", "Roślina", "Gotowanie", "Zupa", "Nasiona"]],                        //***********************  F  ********************* */
     ["Film", ["Kino", "Aktor", "Reżyser", "Scenariusz", "Kamera"]],
     ["Fotel", ["Siedzenie", "Mebel", "Pokój", "Komfort", "Poduszka"]],
     ["Fryzjer", ["Włosy", "Strzyżenie", "Salon", "Nożyczki", "Fryzura"]],
@@ -648,7 +643,7 @@ var tabooWords = [
     ["Fluoryt", ["Minerał", "Kamień", "Fluor", "Geologia", "Kryształ"]],
     ["Forsa", ["Pieniądze", "Gotówka", "Zasoby", "Bogactwo", "Zamożność"]],
 
-    ["Góra", ["Wysokość", "Wspinaczka", "Szczyt", "Widok", "Zakopane"]],                  
+    ["Góra", ["Wysokość", "Wspinaczka", "Szczyt", "Widok", "Zakopane"]],                        //***************************  G  *********************** */
     ["Gazeta", ["News", "Artykuł", "Czytanie", "Dziennikarz", "Papier"]],
     ["Głowa", ["Mózg", "Twarz", "Myślenie", "Ciało", "Włosy"]],
     ["Gwiazda", ["Noc", "Niebo", "Kosmos", "Planeta", "Teleskop"]],
@@ -746,7 +741,7 @@ var tabooWords = [
     ["Grosz", ["Pieniądze", "Moneta", "Zakupy", "Niewiele", "Płatność"]],
     ["Gwara", ["Język", "Dialekt", "Mowa", "Region", "Słowa"]],
 
-    ["Hotel", ["Pokój", "Rezerwacja", "Recepcja", "Nocleg", "Turystyka"]],
+    ["Hotel", ["Pokój", "Rezerwacja", "Recepcja", "Nocleg", "Turystyka"]],                      //*************************  H  ************************ */
     ["Herbata", ["Ciepłe", "Picie", "Czajnik", "Liście", "Torebka"]],
     ["Harmonia", ["Muzyka", "Spokój", "Równowaga", "Melodia", "Dźwięk"]],
     ["Hormon", ["Bodziec", "Gruczoły", "Endokrynologia", "Zdrowie", "Nauka"]],
@@ -856,7 +851,7 @@ var tabooWords = [
     ["Hormonalny", ["Hormony", "Ciało", "Endokrynologia", "Regulacja", "Zdrowie"]],
     ["Higiena", ["Czystość", "Mydło", "Zdrowie", "Pielęgnacja", "Ciało"]],
 
-    ["Informatyka", ["Komputer", "Programowanie", "Dane", "Algorytm", "Internet"]],  
+    ["Informatyka", ["Komputer", "Programowanie", "Dane", "Algorytm", "Internet"]],                 //***********************  I  ************************* */
     ["Izolacja", ["Ciepło", "Budowa", "Materiał", "Termiczny", "Zimno"]],
     ["Impuls", ["Fizyka", "Ruch", "Siła", "Zmiana", "Moment"]],
     ["Inkwizycja", ["Kościół", "Herezja", "Średniowiecze", "Sąd", "Tortury"]],
@@ -958,7 +953,7 @@ var tabooWords = [
     ["Inicjatywa", ["Pierwszy krok", "Pomysł", "Działanie", "Przedsięwzięcie", "Motywacja"]],
     ["Iskra", ["Ogień", "Płomień", "Zapłon", "Energia", "Błysk"]],
 
-    ["Jabłko", ["Owoc", "Drzewo", "Zielone", "Czerwone", "Sad"]],                            
+    ["Jabłko", ["Owoc", "Drzewo", "Zielone", "Czerwone", "Sad"]],                               //****************************  J  ************************* */
     ["Jedzenie", ["Głód", "Smak", "Gotowanie", "Restauracja", "Obiad"]],
     ["Jaskinia", ["Góra", "Ciemność", "Nora", "Stalaktyty", "Stalagmity"]],
     ["Jaźń", ["Psychoanaliza", "Freud", "Tożsamość", "Świadomość", "Psychologia"]],
@@ -1059,7 +1054,7 @@ var tabooWords = [
     ["Józefit", ["Minerał", "Nauka", "Geologia", "Kamień", "Skala"]],
     ["Jakub", ["Imię", "Mężczyzna", "Osoba", "Biblia", "Chłopiec"]],
 
-    ["Kamień", ["Twardy", "Rzeka", "Budowa", "Ściana", "Droga"]],                 
+    ["Kamień", ["Twardy", "Rzeka", "Budowa", "Ściana", "Droga"]],                           //***************************  K  ************************* */
     ["Komiks", ["Książka", "Rysunek", "Bohater", "Historia", "Bajka"]],
     ["Księżyc", ["Noc", "Niebo", "Gwiazdy", "Planeta", "Satelita"]],
     ["Krzesło", ["Siedzieć", "Mebel", "Drewno", "Pokój", "Oparcie"]],
@@ -1170,7 +1165,7 @@ var tabooWords = [
     ["Kolega", ["Praca", "Znajomy", "Drużyna", "Współpraca", "Zespół"]],
     ["Kobieta", ["Płeć", "Dziewczyna", "Dama", "Pani", "Dziewczyna"]],
 
-    ["Lampa", ["Światło", "Żarówka", "Ciemność", "Oświetlenie", "Stolik"]],          
+    ["Lampa", ["Światło", "Żarówka", "Ciemność", "Oświetlenie", "Stolik"]],                         //***************************  L  **************************** */
     ["Lew", ["Zwierzę", "Safari", "Afryka", "Kot", "Grzywa"]],
     ["Lot", ["Samolot", "Podróż", "Pilot", "Pas startowy", "Chmury"]],
     ["Lód", ["Zimno", "Woda", "Zamrożony", "Kostka", "Ślisko"]],
@@ -1271,7 +1266,7 @@ var tabooWords = [
     ["Lekarz", ["Medycyna", "Zdrowie", "Choroba", "Szpital", "Pacjent"]],
     ["Lokaj", ["Służący", "Dom", "Praca", "Obsługa", "Pan"]],
 
-    ["Motyl", ["Owad", "Lot", "Skrzydła", "Kolor", "Larwa"]],              
+    ["Motyl", ["Owad", "Lot", "Skrzydła", "Kolor", "Larwa"]],                       //*******************************  M  ***************************** */
     ["Makaron", ["Jedzenie", "Włoski", "Spaghetti", "Sos", "Kucharz"]],
     ["Mebel", ["Dom", "Pokój", "Stół", "Krzesło", "Szafa"]],
     ["Murarz", ["Budowa", "Cegła", "Praca", "Dom", "Cement"]],
@@ -1372,7 +1367,7 @@ var tabooWords = [
     ["Milioner", ["Bogaty", "Pieniądze", "Majątek", "Sukces", "Biznes"]],
     ["Monarchia", ["Władza", "Król", "Rządy", "Państwo", "Dziedzictwo"]],
 
-    ["Nawigacja", ["Mapa", "GPS", "Droga", "Podróż", "Kierunek"]],                     
+    ["Nawigacja", ["Mapa", "GPS", "Droga", "Podróż", "Kierunek"]],                              //*****************************  N  ************************* */
     ["Nauka", ["Szkoła", "Wiedza", "Studia", "Książka", "Zrozumienie"]],
     ["Nieskończoność", ["Bez końca", "Matematyka", "Czas", "Wszechświat", "Symbol"]],
     ["Narzędzie", ["Praca", "Budowa", "Wykorzystanie", "Maszyna", "Zadanie"]],
@@ -1473,7 +1468,7 @@ var tabooWords = [
     ["Nasiona", ["Roślina", "Sadzenie", "Ogrodnik", "Ziemia", "Roślinność"]],
     ["Nałogowiec", ["Uzależnienie", "Narkotyki", "Alkohol", "Leczenie", "Problem"]],
 
-    ["Oaza", ["Pustynia", "Woda", "Palma", "Życie", "Miejsce"]],                 
+    ["Oaza", ["Pustynia", "Woda", "Palma", "Życie", "Miejsce"]],                                //******************************  O  **************************** */
     ["Obiad", ["Jedzenie", "Posiłek", "Gotowanie", "Kuchnia", "Talerz"]],
     ["Obietnica", ["Słowo", "Zobowiązanie", "Przyrzeczenie", "Zapewnienie", "Gwarancja"]],
     ["Obraz", ["Malarstwo", "Sztuka", "Ramka", "Farba", "Kolor"]],
@@ -1573,7 +1568,7 @@ var tabooWords = [
     ["Oranżada", ["Napój", "Słodki", "Płyn", "Butelka", "Cukier"]],
     ["Oświadczenie", ["Deklaracja", "Mówić", "Zgłoszenie", "Prawo", "Dokument"]],
 
-    ["Pies", ["Zwierzę", "Szczekać", "Kość", "Ogon", "Latać"]],              
+    ["Pies", ["Zwierzę", "Szczekać", "Kość", "Ogon", "Latać"]],                         //****************************  P  ************************** */
     ["Poduszka", ["Łóżko", "Sen", "Głowa", "Miękki", "Poszewka"]],
     ["Pociąg", ["Kolej", "Podróż", "Stacja", "Tory", "Wagon"]],
     ["Pomidor", ["Warzywo", "Czerwony", "Sałatka", "Ketchup", "Roślina"]],
@@ -1674,7 +1669,7 @@ var tabooWords = [
     ["Papuga", ["Ptak", "Mówienie", "Klatka", "Kolorowy", "Latanie"]],
     ["Pokój", ["Dom", "Mebel", "Łóżko", "Ściana", "Okno"]],
     
-    ["Rower", ["Jazda", "Pedale", "Kierownica", "Siodło", "Koła"]],                   
+    ["Rower", ["Jazda", "Pedale", "Kierownica", "Siodło", "Koła"]],                             //**********************  R  ********************** */
     ["Rzeka", ["Woda", "Most", "Łódź", "Prąd", "Brzeg"]],
     ["Rekin", ["Ocean", "Zęby", "Ryba", "Groźny", "Fale"]],
     ["Robot", ["Technologia", "Automatyczny", "Maszyna", "Elektryczność", "Programowanie"]],
@@ -1776,7 +1771,7 @@ var tabooWords = [
     ["Rewolucja", ["Zmiana", "Bunt", "Ruch", "Rewolta", "Historia"]],
     ["Rezerwat", ["Ochrona", "Natura", "Zwierzęta", "Obszar", "Ekologia"]],
 
-    ["Szkoła", ["Nauka", "Uczeń", "Nauczyciel", "Zeszyt", "Klasa"]],         
+    ["Szkoła", ["Nauka", "Uczeń", "Nauczyciel", "Zeszyt", "Klasa"]],                                //***********************  S  ********************* */
     ["Samochód", ["Koła", "Silnik", "Kierowca", "Droga", "Benzyna"]],
     ["Sport", ["Aktywność", "Zdrowie", "Gra", "Mecz", "Trening"]],
     ["Słońce", ["Ciepło", "Światło", "Dzień", "Zachód", "Promienie"]],
@@ -1878,7 +1873,7 @@ var tabooWords = [
     ["Szachy", ["Gra", "Król", "Hetman", "Bierka", "Plansza"]],
     ["Szlifierka", ["Narzędzie", "Metal", "Drzewo", "Szczotka", "Obróbka"]],
 
-    ["Talerz", ["Jedzenie", "Stołowanie", "Porcelana", "Naczynia", "Obiad"]],      
+    ["Talerz", ["Jedzenie", "Stołowanie", "Porcelana", "Naczynia", "Obiad"]],                       //************************  T  ************************ */
     ["Telewizja", ["Program", "Ekran", "Antena", "Kanały", "Wiadomości"]],
     ["Towar", ["Produkt", "Sklep", "Sprzedaż", "Kupować", "Magazyn"]],
     ["Traktor", ["Pole", "Rolnik", "Uprawa", "Maszyna", "Pług"]],
@@ -2086,4 +2081,4 @@ var tabooWords = [
     ["Ziemniak", ["Roślina", "Jedzenie", "Ziemne", "Gotowanie", "Frytki"]],
     ["Królik", ["Zwierzę", "Uszy", "Biały", "Marchewka", "Puść"]],
     ["Klawiatura", ["Komputer", "Pisanie", "Przycisk", "Ręka", "Litera"]]
-    ];
+    ]
