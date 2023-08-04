@@ -1960,7 +1960,6 @@ var tabooWords = [
     ["Tramwaj", ["Transport", "Miasto", "Podróż", "Pasażer", "Tor"]],
     ["Trojan", ["Wirus", "Komputer", "Zabezpieczenia", "Dane", "Internet"]],
     ["Termos", ["Ciepło", "Zimno", "Napój", "Podróż", "Izolacja"]],
-    ["Tyflopędia", ["Ślepy", "Nauka", "Wiedza", "Edukacja", "Czytanie"]],
     ["Tykwa", ["Roślina", "Owoc", "Jedzenie", "Kuchnia", "Natura"]],
     ["Torebka", ["Zakupy", "Rzeczy", "Noszenie", "Moda", "Damska"]],
     ["Tętniak", ["Choroba", "Zdrowie", "Serce", "Naczynia krwionośne", "Ryzyko"]],
