@@ -1,257 +1,63 @@
-:root {
-    --app-bg: #11151B;
-    --window-bg: #1B222C;
-    --surface: #2A3442;
-    --surface-alt: #313D4D;
-    --surface-deep: #0F1319;
-    --input-bg: #243041;
-    --border: #2F3A49;
-    --border-soft: #3B4656;
-    --text: #E6ECF5;
-    --text-muted: #A8B4C6;
-    --text-disabled: #657286;
-    --accent: #7FC4F0;
-    --accent-strong: #3FA7FF;
-    --accent-hover: #5CB5FF;
-    --shadow: rgba(0, 0, 0, 0.45);
-}
-
-* {
-    box-sizing: border-box;
-}
-
-html,
 body {
-    min-height: 100%;
-}
-
-body {
-    margin: 0;
-    font-family: "Segoe UI", Arial, sans-serif;
-    background:
-        radial-gradient(circle at top left, rgba(127, 196, 240, 0.08), transparent 32rem),
-        var(--app-bg);
-    color: var(--text);
-    overflow-x: hidden;
-}
-
-.app-shell {
-    width: min(1180px, calc(100vw - 24px));
-    min-height: calc(100vh - 24px);
-    margin: 12px auto;
-    padding: 10px;
-    background: var(--window-bg);
-    border: 1px solid #242B35;
-    border-radius: 8px;
-    box-shadow: 0 18px 50px var(--shadow);
-}
-
-.top-bar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 12px;
-    min-height: 42px;
-    padding: 0 18px;
-    margin-bottom: 8px;
-    background: var(--surface-alt);
-    border: 1px solid var(--border);
-    border-radius: 4px;
-}
-
-.app-title {
-    font-size: clamp(1.1rem, 3vw, 2rem);
-    font-weight: 700;
-    letter-spacing: 0.08em;
-    color: var(--text);
-}
-
-.status-pill {
-    padding: 7px 14px;
-    color: #D7F2DC;
-    font-weight: 800;
-    letter-spacing: 0.04em;
-    border-radius: 4px;
-    background: #17251F;
-    border: 1px solid #2A4D3A;
-}
-
-.workspace {
-    display: grid;
-    grid-template-columns: 172px minmax(0, 1fr);
-    gap: 10px;
-    min-height: calc(100vh - 94px);
-    padding: 10px;
-    background: var(--surface);
-    border: 1px solid var(--border);
-    border-radius: 8px;
-}
-
-.side-panel {
-    padding: 0;
-    border-radius: 4px;
-}
-
-.tab {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 44px;
-    margin-bottom: 8px;
-    color: var(--text-muted);
-    font-size: 1rem;
-    font-weight: 650;
-    border-radius: 0;
-}
-
-.tab.active {
-    color: #111111;
-    background: var(--accent);
-}
-
-.content-panel {
-    min-width: 0;
-}
-
-.toolbar {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 8px;
-    margin-bottom: 8px;
+    font-family: Arial, sans-serif;
+    font-size: 4vh;
+    text-align: center;
+    vertical-align: top;
+    background-color: grey;
+    color: white;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    line-height: 0.1;
 }
 
 button {
-    min-height: 44px;
-    padding: 0 22px;
-    font: inherit;
-    font-size: clamp(1rem, 2.2vw, 1.35rem);
-    font-weight: 750;
-    color: var(--text);
-    background: linear-gradient(180deg, var(--surface-alt), #2C3746);
-    border: 1px solid var(--border-soft);
-    border-radius: 7px;
-    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05), 0 4px 10px rgba(0, 0, 0, 0.25);
-    cursor: pointer;
-    transition: background 120ms ease, transform 80ms ease, border-color 120ms ease;
-}
-
-button:hover {
-    background: linear-gradient(180deg, #3A485A, #303C4C);
-    border-color: #4B5A6D;
-}
-
-button:active {
-    transform: translateY(1px);
-    background: #283241;
-}
-
-.cards-grid {
-    display: grid;
-    grid-template-rows: minmax(120px, 22vh) minmax(320px, 1fr);
-    gap: 10px;
-}
-
-.card {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    padding: clamp(18px, 3vw, 34px);
-    background: var(--input-bg);
-    border: 1px solid var(--border-soft);
-    border-radius: 7px;
-    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.035), 0 4px 18px rgba(0, 0, 0, 0.24);
-}
-
-.card-caption {
-    position: absolute;
-    top: 14px;
-    left: 16px;
-    color: var(--text-muted);
-    font-size: 0.92rem;
-    font-weight: 700;
-}
-
-.primary-card {
-    background: linear-gradient(180deg, #283447, #222D3C);
-    border-color: #35445A;
-}
-
-.primary-card::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    border-top: 4px solid var(--accent);
-    pointer-events: none;
-}
-
-#word-text {
-    margin: 22px 0 0;
-    color: var(--text);
-    font-size: clamp(2.2rem, 8vw, 5.8rem);
-    font-weight: 850;
-    line-height: 1.02;
-    text-align: center;
-    text-wrap: balance;
-}
-
-.forbidden-card {
-    flex-direction: column;
-    justify-content: center;
-    gap: clamp(8px, 1.6vh, 18px);
-    background: var(--surface-deep);
-    border-color: #202934;
-}
-
-.forbidden-card p {
-    width: min(760px, 92%);
-    min-height: clamp(42px, 7vh, 70px);
+    font-size: 4vh;
+    width: 85vw;
+    height: 10vh;
     margin: 0;
-    padding: 8px 18px;
+    background-color: blue;
+    color: white;
+    border: 5px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.9);
+    transition: all 0.1s;
+}
+
+button:active {    
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    top: 3px;
+    left: 3px;    
+}
+
+#taboo-card {    
+    width: 85vw;
+    height: 10vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.7);
+    border-radius: 10px;
+    border: 5px solid black;
+    background-color: blue;
+    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: var(--text);
-    font-size: clamp(1.35rem, 4.5vw, 3.4rem);
-    font-weight: 760;
-    line-height: 1.05;
-    text-align: center;
-    background: #1E2632;
-    border: 1px solid #2A3442;
-    border-radius: 4px;
 }
 
-.forbidden-card p:empty::after {
-    content: "—";
-    color: var(--text-disabled);
+#forbidden-card {
+    width: 85vw;
+    height: 55vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.7);
+    border-radius: 10px;
+    border: 5px solid black;
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-@media (max-width: 760px) {
-    .app-shell {
-        width: 100vw;
-        min-height: 100vh;
-        margin: 0;
-        border-radius: 0;
-    }
-
-    .workspace {
-        grid-template-columns: 1fr;
-        min-height: calc(100vh - 82px);
-    }
-
-    .side-panel {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 8px;
-    }
-
-    .tab {
-        min-height: 40px;
-        margin-bottom: 0;
-    }
-
-    .cards-grid {
-        grid-template-rows: minmax(110px, auto) minmax(360px, 1fr);
-    }
-}
