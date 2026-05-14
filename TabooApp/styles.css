@@ -1,5 +1,6 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 600;
     font-size: 4vh;
     text-align: center;
     vertical-align: top;
@@ -10,6 +11,8 @@ body {
 }
 
 button {
+    font-family: inherit;
+    font-weight: 600;
     font-size: 4vh;
     width: 85vw;
     height: 10vh;
