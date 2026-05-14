@@ -1,48 +1,27 @@
 <!DOCTYPE html>
-<html lang="pl">
+<html>
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Taboo Generator</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <main class="app-shell">
-        <header class="top-bar">
-            <div class="app-title">TABOO</div>
-            <div class="status-pill">ONLINE</div>
-        </header>
+    <h1>TABOO</h1>
 
-        <section class="workspace">
-            <aside class="side-panel">
-                <div class="tab active">Gra</div>
-                <div class="tab">Hasła</div>
-                <div class="tab">Ustawienia</div>
-            </aside>
+    <div id="taboo-card">
+        <p id="word-text"></p>
+    </div>
 
-            <section class="content-panel">
-                <div class="toolbar">
-                    <button id="show-word" type="button">KOLEJNE HASŁO</button>
-                </div>
+    <div id="forbidden-card">
+        <p id="forbidden1-text"></p>
+        <p id="forbidden2-text"></p>
+        <p id="forbidden3-text"></p>
+        <p id="forbidden4-text"></p>
+        <p id="forbidden5-text"></p>
+    </div>
 
-                <section class="cards-grid">
-                    <article id="taboo-card" class="card primary-card">
-                        <div class="card-caption">Hasło</div>
-                        <p id="word-text">Kliknij „Kolejne hasło”</p>
-                    </article>
-
-                    <article id="forbidden-card" class="card forbidden-card">
-                        <div class="card-caption">Nie wolno użyć</div>
-                        <p id="forbidden1-text"></p>
-                        <p id="forbidden2-text"></p>
-                        <p id="forbidden3-text"></p>
-                        <p id="forbidden4-text"></p>
-                        <p id="forbidden5-text"></p>
-                    </article>
-                </section>
-            </section>
-        </section>
-    </main>
+    <button id="show-word">KOLEJNE HASŁO</button>
+    
 
     <script src="data.js"></script>
     <script src="script.js"></script>
